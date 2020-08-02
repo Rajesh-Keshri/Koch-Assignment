@@ -1,0 +1,2 @@
+export const CARTPRODUCT = "CARTPRODUCT";
+export const CHANGEQUANTITY = "CHANGEQUANTITY";
