@@ -8,8 +8,13 @@ module.exports = {
     index: "./index.js",
   },
   output: {
-    filename: ["name"].js,
+    filename: "[name].[chunkHash].js",
     path: path.join(__dirname, "build"),
+  },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
   },
   module: {
     rules: [
@@ -47,7 +52,7 @@ module.exports = {
       template: "./index.html",
     }),
     new minicssextractplugin({
-      filename: "style.css",
+      filename: "style.[contentHash].css",
     }),
   ],
 };
