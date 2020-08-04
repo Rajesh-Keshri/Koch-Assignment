@@ -9,6 +9,7 @@
 #Technology Used
 * React
 * Redux
+* Redux-thunk
 * SCSS
 * Webpack
 * Babel
