@@ -20,7 +20,7 @@ Mockdata is used to fetch list of products. Range, Search and sort functionality
 Cart having list of all the selected products. Quantity increase and decrease functionality is added there. According to the product and quantity total price value changes.
 
 
-This Assignment follows the approach of modular programming. For each functionality sepearte component is created. So it will be resued whenever required. React and Redux Hooks are used across project. For optimization purpose dynamic import feature is used at routing level.
+This Assignment follows the approach of modular programming. For each functionality sepearte component is created. So it will be resued whenever required. React and Redux Hooks are used across project. For optimization purpose dynamic import used at routing level and also webpack level optimization is added.
 
 
 
